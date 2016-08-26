@@ -15,6 +15,7 @@ body {
 	color: white;
 	text-align: center;
 	font-size: 1rem;
+	background-color: black;
 }
 
 .page {
@@ -23,10 +24,6 @@ body {
 }
 
 /*one page*/
-.one {
-	background-color: black;
-}
-
 .pic-outer {
 	display: inline-block;
 	width: 250px;
@@ -111,14 +108,172 @@ body {
 
 /*two page*/
 .two {
-	background-color: red;
+	background-color: green;
 }
+
+.outer-skill {
+	width: 300px;
+	text-align: left;
+	margin: auto;
+	display: inline-block;
+}
+
+.skill-font {
+	font-size: 30px;
+}
+
+.skill-outer {
+	width: 300px;
+}
+
+.skill-outer ul {
+	position: relative;
+	text-align: left;
+	padding-top: 50px;
+}
+
+.skill { 
+	list-style: none; 
+}
+
+.skill li { 
+	margin-bottom: 50px; 
+	height: 8px; 
+	border-radius: 5px; 
+	border-left: 1px solid #117308; 
+	border-top: 1px solid #117308; 
+	border-right: 1px solid #1BAD0D; 
+	border-bottom: 1px solid #1BAD0D;  
+	position: relative;
+}
+
+.skill li em { 
+	position: relative; 
+	top: -30px;
+}
+
+.skill div {
+	display: inline-block;
+	position: absolute;
+	top: -30px;
+	right: 0;
+}
+
+.expand { 
+	display: inline-block;
+	border-radius: 3px;
+	height: 4px; 
+	margin: 1px 0; 
+	background: #FBB401; 
+	position: absolute;
+	box-shadow: 0px 0px 10px 1px rgba(0,198,255,0.4);
+}
+
+.html { 
+	width: 85%;
+	animation: html 10s ease-out infinite;
+}
+
+
+@keyframes html { 
+	0%  { width: 0px;} 
+	100%{ width: 85%;} 
+}
+
+.css { 
+	width: 85%;
+	animation: css 10s ease-out infinite;
+}
+
+
+@keyframes css { 
+	0%  { width: 0px;} 
+	100%{ width: 85%;} 
+}
+
+.js { 
+	width: 75%;
+	animation: js 10s ease-out infinite;
+}
+
+
+@keyframes js { 
+	0%  { width: 0px;} 
+	100%{ width: 75%;} 
+}
+
+.ng { 
+	width: 75%;
+	animation: ng 10s ease-out infinite;
+}
+
+
+@keyframes ng { 
+	0%  { width: 0px;} 
+	100%{ width: 75%;} 
+}
+
+.bt { 
+	width: 60%;
+	animation: bt 10s ease-out infinite;
+}
+
+
+@keyframes bt { 
+	0%  { width: 0px;} 
+	100%{ width: 60%;} 
+}
+
+.jq { 
+	width: 60%;
+	animation: jq 10s ease-out infinite;
+}
+
+
+@keyframes jq { 
+	0%  { width: 0px;} 
+	100%{ width: 60%;} 
+}
+
+.other { 
+	width: 60%;
+	animation: other 10s ease-out infinite;
+}
+
+
+@keyframes other { 
+	0%  { width: 0px;} 
+	100%{ width: 50%;} 
+}
+
 
 /*three page*/
-.three {
-	background-color: grey;
+.web-link {
+  text-align: left;
+  max-height: 250px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 2rem;
 }
 
+.title {
+	font-size: 2rem;
+	padding: 20px 0;
+}
+
+.web-link ul {
+  list-style: circle;
+  font-size: 1.2rem;
+}
+
+a {
+	text-decoration: none;
+	color: green;
+}
+
+a:hover {
+	color: #81F781
+}
 
 
 
