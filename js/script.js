@@ -3,8 +3,8 @@ $(document).ready(function() {
   function rect (){
     var width = $(window).width();
     var height = $(window).height();
-    $('.one').css('width', width-100)
-                 .css('height', height-100);
+    $('.page').css('width', width)
+                 .css('height', height);
   };
 
   rect();

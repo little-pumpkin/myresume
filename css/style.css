@@ -7,14 +7,24 @@
 body {
 	width: 100%;
 	height: 100%;
-	background-color: black;
+	background-color: green;
 }
 
 .container {
 	width: 100%;
 	color: white;
 	text-align: center;
-	padding: 50px;
+	font-size: 1rem;
+}
+
+.page {
+	padding: 100px 50px;
+	overflow: hidden;
+}
+
+/*one page*/
+.one {
+	background-color: black;
 }
 
 .pic-outer {
@@ -95,7 +105,39 @@ body {
 
 .intro {
 	width: 100%;
-	height: 100px;
-	background-color: blue;
 	margin-top: 50px;
+	line-height: 2rem;
 }
+
+/*two page*/
+.two {
+	background-color: red;
+}
+
+/*three page*/
+.three {
+	background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
