@@ -112,18 +112,29 @@ body {
 }
 
 .outer-skill {
-	width: 300px;
+	width: 500px;
 	text-align: left;
 	margin: auto;
 	display: inline-block;
 }
 
 .skill-font {
+	width: 100%;
+	text-align: center;
 	font-size: 30px;
 }
 
 .skill-outer {
-	width: 300px;
+	width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+	.outer-skill {
+		width: 250px;
+	}
+	.skill-outer {
+		width: 250px;
+	}
 }
 
 .skill-outer ul {
@@ -257,6 +268,8 @@ body {
 }
 
 .title {
+	width: 100%;
+	text-align: center;
 	font-size: 2rem;
 	padding: 20px 0;
 }
