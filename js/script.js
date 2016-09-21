@@ -11,4 +11,20 @@ $(document).ready(function() {
 
   // 添加一个监听
   window.addEventListener('resize', rect);
+
+  // window.addEventListener('focus', function() {
+  //     document.title = '吴楠的个人简历';
+  // });
+
+  // window.addEventListener('blur', function() {
+  //     document.title = '看这里，看这里！';
+  // });
+   
+  document.addEventListener('visibilitychange', function(){
+    if(document.hidden){
+      document.title = '看这里，看这里！';
+    }else{
+      document.title = '吴楠的简历！';
+    }
+  });
 });
