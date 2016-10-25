@@ -203,25 +203,25 @@ body {
 }
 
 .js { 
-	width: 75%;
+	width: 70%;
 	animation: js 10s ease-out infinite;
 }
 
 
 @keyframes js { 
 	0%  { width: 0px;} 
-	100%{ width: 75%;} 
+	100%{ width: 70%;} 
 }
 
 .ng { 
-	width: 75%;
+	width: 60%;
 	animation: ng 10s ease-out infinite;
 }
 
 
 @keyframes ng { 
 	0%  { width: 0px;} 
-	100%{ width: 75%;} 
+	100%{ width: 60%;} 
 }
 
 .bt { 
@@ -234,7 +234,7 @@ body {
 	0%  { width: 0px;} 
 	100%{ width: 60%;} 
 }
-
+/*
 .jq { 
 	width: 60%;
 	animation: jq 10s ease-out infinite;
@@ -244,7 +244,7 @@ body {
 @keyframes jq { 
 	0%  { width: 0px;} 
 	100%{ width: 60%;} 
-}
+}*/
 
 .other { 
 	width: 60%;
